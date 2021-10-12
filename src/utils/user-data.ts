@@ -6,7 +6,7 @@ for (let i = 0; i < ARRAY_LEN; i++) arrIndex.push(i);
 
 const mockList: IUserStruct[] = Array.from(
   arrIndex,
-  x => ({ id: x, name: `luffyZh${x}`, age: Math.ceil(Math.random() * 100) })
+  x => ({ id: x, name: `name${x}`, age: Math.ceil(Math.random() * 100) })
 );
 
 export function generateUserList(page: number | undefined, pageSize?: number): IUserListResStruct {

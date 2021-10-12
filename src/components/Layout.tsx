@@ -41,7 +41,7 @@ const CustomLayout = ({ children, title }: Props) => (
           font-weight: 600;
         }
       `}</style>
-      <div className="logo"><a href="https://github.com/luffyZh" target="_blank">Go to luffyZh</a></div>
+      <div className="logo">Logo</div>
       <Menu
         mode="inline"
         defaultSelectedKeys={[useRouter().pathname || '/']}
